@@ -17,8 +17,9 @@ public class DD {
         DD t1 = new DD();
         DD t2 = new DD();
         t2.i = 60;
-        System.out.println("第一个实例变量调用变量i的结果" + t1.i++);
+        System.out.println("第一个实例变量调用变量i的结果" + t1.i);
         t1.call();
+        System.out.println("第一个实例变量调用变量i的结果" + t1.i);
         System.out.println("第二个实例变量调用变量i的结果" + t2.i);
         t2.call();
     }
